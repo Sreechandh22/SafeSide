@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service EvacuationService {
+    rpc GetRoute(UserRequest) returns (RouteResponse);
+}
+
+message UserRequest {
+    string userId = 1;
+}
+
+message RouteResponse {
+    string route = 1;
+}
