@@ -3,7 +3,16 @@ package com.safeside.model;
 import java.util.List;
 
 public class Route {
+    private String userId;
     private List<Location> locations;
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
 
     public List<Location> getLocations() {
         return locations;
@@ -16,7 +25,8 @@ public class Route {
     @Override
     public String toString() {
         return "Route{" +
-                "locations=" + locations +
+                "userId='" + userId + '\'' +
+                ", locations=" + locations +
                 '}';
     }
 }

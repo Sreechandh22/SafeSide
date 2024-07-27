@@ -1,7 +1,9 @@
 syntax = "proto3";
 
+package com.safeside.grpc.proto;
+
 service EvacuationService {
-    rpc GetRoute(UserRequest) returns (RouteResponse);
+    rpc GetRoute (UserRequest) returns (RouteResponse);
 }
 
 message UserRequest {

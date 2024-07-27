@@ -1,6 +1,7 @@
 package com.safeside.util;
 
 import com.safeside.model.Location;
+import com.safeside.model.BeaconSignal;
 
 public class BeaconProcessor {
 
