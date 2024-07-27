@@ -7,7 +7,7 @@ service EvacuationService {
 }
 
 message UserRequest {
-    string userId = 1;
+    string user_id = 1;
 }
 
 message RouteResponse {
